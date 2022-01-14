@@ -931,10 +931,10 @@ a {
 }
 
 .text-contents {
-  width: 80%;
+  width: 90%;
   display: inline-block;
   margin-top: 15px;
-  font-size: 15px;
+  font-size: 1.3em;
   color: #b3aeb5;
 }
 .text-contents2 {
