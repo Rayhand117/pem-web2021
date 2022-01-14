@@ -53,10 +53,6 @@ header {
   transition: all 0.5s;
 }
 
-/*.header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-}*/
-
 .darurat {
   width: 204px;
   height: 63px;
@@ -81,10 +77,6 @@ header {
 a {
   text-decoration: none;
 }
-
-/*.clear {
-  clear: left;
-}*/
 
 .container {
   max-width: 1920px;
@@ -660,13 +652,13 @@ a {
   margin-right: 5px;
 }
 
-/* CSS untuk menu-icon */
+/* Menu-icon */
 .menu-icon {
   color: white;
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  /* Property display ke none */
+  /* Property display none */
   display: none;
 }
 
@@ -745,9 +737,6 @@ a {
   width: 100%;
   color: white;
 }
-/*.gbrmisan:hover {
-  opacity: 0.5;
-}*/
 
 .pengelolas {
   display: inline-block;
