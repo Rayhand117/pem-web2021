@@ -31,7 +31,6 @@ header {
 .header-left a {
   font-size: 50px;
   line-height: 65px;
-  padding: 0 25px;
   color: black;
   display: block;
   float: left;
@@ -53,10 +52,6 @@ header {
   transition: all 0.5s;
 }
 
-/*.header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-}*/
-
 .darurat {
   width: 204px;
   height: 63px;
@@ -75,6 +70,7 @@ header {
 .darurat a {
   color: white;
   text-align: center;
+  justify-content: center;
   font-size: 22px;
 }
 
@@ -82,23 +78,19 @@ a {
   text-decoration: none;
 }
 
-/*.clear {
-  clear: left;
-}*/
-
 .container {
   max-width: 1920px;
   width: 100%;
-  padding: 0 150px;
+  padding: 0 9em;
   margin: 0 auto;
 }
 .containertop {
-  display: flex;
+  margin: 0.8em 1.5em 0 0;
   max-width: 1920px;
   padding: 0 8%;
-  margin: 1% 0 0 56.4%;
-  
+  float: right;
 }
+
 .containertop a {
   font-size: 25px;
   float: right;
@@ -402,13 +394,15 @@ a {
   opacity: 1;
   font-size: 50px;
   letter-spacing: 1px;
-  margin-bottom: 10px;
+  margin-bottom: 0.7;
+  text-align: center;
 }
 .daftar h2 {
   opacity: 1;
   font-size: 25px;
   letter-spacing: 1px;
   margin-bottom: 70px;
+  text-align: center;
 }
 
 .daftar p {
@@ -660,17 +654,17 @@ a {
   margin-right: 5px;
 }
 
-/* CSS untuk menu-icon */
+/* Menu-icon */
 .menu-icon {
   color: white;
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  /* Property display ke none */
+  /* Property display none */
   display: none;
 }
 
-.lesson-wrapper {
+.kabar-wrapper {
   padding: 0 5% 0 5%;
   /*padding-bottom: 80px;
   padding-left: 5%;
@@ -720,24 +714,28 @@ a {
   font-weight: normal;
 }
 
-.lessons {
-  display: inline-flex;
+.kabars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.lesson {
-  float: left;
-  width: 25%;
+.kabar {
+  position: relative;
+  width: 23%;
+  margin: auto;
 }
 
-.lesson-icon {
+.kabar-icon {
   position: relative;
   display: inline-block;
 }
-.lesson-icon:hover {
+.kabar-icon:hover {
   opacity: 0.5;
 }
 
-.lesson-icon p {
+.kabar-icon p {
   margin-left: 30px;
   text-align: left;
   position: absolute;
@@ -745,21 +743,24 @@ a {
   width: 100%;
   color: white;
 }
-/*.gbrmisan:hover {
-  opacity: 0.5;
-}*/
 
 .pengelolas {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .ulasans {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .pengelola {
-  display: inline-block;
+  position: relative;
   width: 25%;
-  margin: 0 42.5px 0 42.5px;
+  margin: auto;
 }
 
 .pengelola-icon {
@@ -855,9 +856,9 @@ a {
 }
 
 .ulasan {
-  display: inline-block;
+  position: relative;
   width: 25%;
-  margin: 0 67px 0 67px;
+  margin: auto;
 }
 
 .ulasan-icon {
@@ -931,10 +932,10 @@ a {
 }
 
 .text-contents {
-  width: 80%;
+  width: 90%;
   display: inline-block;
   margin-top: 15px;
-  font-size: 15px;
+  font-size: 1.3em;
   color: #b3aeb5;
 }
 .text-contents2 {
@@ -1086,6 +1087,11 @@ footer {
   float: left;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.alamat-left a {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
 
 .alamat-left:hover {
   background-color: rgba(0, 0, 0, 0.5);
@@ -1127,70 +1133,3 @@ footer {
   font-size: 1.6rem;
   color: black;
 }
-
-/*
-.alamat-right {
-  margin-right: 100px;
-  float: right;
-}
-
-.alamat-right a {
-  font-size: 30px;
-  padding: 25px;
-  color: white;
-  float: left;
-  border: 1px solid white;
-}
-
-.alamat-left a {
-  font-size: 30px;
-  padding: 25px 25px;
-  float: left;
-}
-
-.ulsround3 {
-  margin: 50px 0 0 0;
-  display: inline-block;
-  width: 204px;
-  height: 63px;
-  background: rgb(139, 78, 21);
-  opacity: 1;
-  border-radius: 0 20px 0 20px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  overflow: hidden;
-}
-.ulsround3:hover{
-  background-color: rgba(139, 78, 21, 0.75);
-}
-.ulsround3 a {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  color: white;
-  text-align: center;
-  font-size: 22px;
-}
-
-.search { 
-  margin: 450px 0 0 500px;
-  position: relative;
-  width: 60px;
-  height: 60px;
-  background: #fff;
-  border-radius: 60px;
-  transition: 0.5s;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  overflow: hidden;
-
-  width: 586px;
-  height: 54px;
-  background: white;
-  opacity: 1;
-  border: 1px solid rgba(105,96,96,1);
-  border-radius: 30px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
-  padding: 0 0px;
-  margin: 450px 0 0 500px;
-  cursor: pointer;
-}
-*/
