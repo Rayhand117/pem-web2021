@@ -1,10 +1,91 @@
 /* Untuk Tablet */
-@media all and (max-width: 1000px) {
-  .lesson {
+@media all and (max-width: 1801px) {
+  .kabar {
     width: 50%;
     margin-bottom: 50px;
   }
+}
+
+@media all and (max-width: 800px) {
+  .header-right {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1082px) {
+  .coneatas,.conekanan,.conebawah,.conekiri {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1118px) {
+  .header-left a {
+    font-size: 30px;
+    line-height: 45px;
+    color: black;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
   
+  .header-right a {
+    font-size: 20px;
+    line-height: 65px;
+    
+    color: black;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .darurat {
+    width: 110px;
+    height: 43px;
+    background: rgba(227, 26, 26, 1);
+    opacity: 1;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .darurat:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .darurat a {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+}
+
+@media all and (max-width: 1900px) {
+  .panahform {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1316px) {
+  .takbiru,.takbiru2,.takbiru3,.takbiru111,.takbiru222,.takbiru333,
+  .takbiru11,.takbiru22,.takbiru33,.takbiruiv,.takbiruiv2,.takbiruiv3 {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1710px) {
+  .bulet,.bulet2,.bulet3,.bulet4 {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1000px) {
   .top-wrapper h1 {
     font-size: 32px;
   }
@@ -14,12 +95,39 @@
   }
 }
 
-/* Untuk Smartphone */
-@media all and (max-width: 670px) {
-  .lesson {
+@media all and (max-width: 1200px) {
+  .pengelola {
+    width: 50%;
+  }
+  .ulasan {
+    width: 50%;
+  }
+}
+@media all and (max-width: 800px) {
+  .pengelola {
     width: 100%;
   }
-  
+  .ulasan {
+    width: 100%;
+  }
+  .alamat-left {
+    margin: auto;
+    float: left;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .peta {
+    float: left;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .kabar {
+    width: 100%;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
   footer {
     text-align: center;
   }
@@ -35,13 +143,7 @@
   .top-wrapper {
     text-align: left;
   }
-  
-  /* Tambahkan CSS untuk header-right */
-  .header-right {
-    display: none;
-  }
-  
-  /* Tambahkan CSS untuk menu-icon */
+    
   .menu-icon {
     display: block;
   }
