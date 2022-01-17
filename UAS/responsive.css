@@ -6,12 +6,6 @@
   }
 }
 
-@media all and (max-width: 800px) {
-  .header-right {
-    display: none;
-  }
-}
-
 @media all and (max-width: 1082px) {
   .coneatas,.conekanan,.conebawah,.conekiri {
     display: none;
@@ -36,7 +30,6 @@
   .header-right a {
     font-size: 20px;
     line-height: 65px;
-    
     color: black;
     display: block;
     float: left;
@@ -103,20 +96,161 @@
     width: 50%;
   }
 }
+
+@media all and (max-width: 1500px) {
+  .alamat-left {
+    margin-left: 0px;
+    width: 447.2px;
+    height: 284.8px;
+    overflow:hidden;
+  }
+}
+
+@media all and (max-width: 710px) {
+  .alamat-left {
+    margin-left: 0px;
+    width: 447.2px;
+    height: 284.8px;
+    overflow:hidden;
+  }
+  .ifr {
+    width: 447.2px;
+    height: 284.8px;
+  }
+  .gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    width: 447.2px;
+    height: 284.8px;
+  }
+  .mapouter {
+    position:relative;
+    text-align:right;
+    width: 447.2px;
+    height: 284.8px;
+  }
+}
+
 @media all and (max-width: 800px) {
+  .header-left a {
+    font-size: 30px;
+    line-height: 45px;
+    color: black;
+    display: block;
+    align-content: center;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  .header-right {
+    display: none;
+  }
+
   .pengelola {
     width: 100%;
   }
+
   .ulasan {
     width: 100%;
   }
+
   .alamat-left {
-    margin: auto;
+    margin-left: 0px;
+    width: 503.1px;
+    height: 360.4px;
     float: left;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
+
   .peta {
+    align-items: left;
+    align-content: left;
+    margin: 4% 0 0 60%;
+    /*padding: 50px 0 50px 0;*/
+    color: black;
+    text-align: left;
+  }
+
+  .daftar h1 {
+    opacity: 1;
+    font-size: 30px;
+    margin-bottom: 0.7em;
+    text-align: center;
+  }
+  .daftar h2 {
+    opacity: 1;
+    font-size: 18px;
+    margin-bottom: 2em;
+    text-align: center;
+  }
+
+  .form {
+    display: inline-block;
+    align-content: center;
+    margin: auto;
+    width: 268px;
+    height: 63px;
+    opacity: 1;
+    border: 1px solid rgba(105, 96, 96, 1);
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .gbr1 {
     float: left;
+    margin: 15px 0 0 15px;
+    width: 32px;
+    height: 32px;
+  }
+  .form a {
+    color: black;
+    font-size: 20px;
+    float: left;
+    margin: 15px 0 0 15px;
+  }
+  
+  .jamkun {
+    display: inline-block;
+    align-content: center;
+    width: 208px;
+    height: 63px;
+    opacity: 1;
+    border: 1px solid rgba(105, 96, 96, 1);
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .gbr2 {
+    float: left;
+    margin: 15px 0 0 15px;
+    width: 32px;
+    height: 32px;
+  }
+  .jamkun a {
+    color: black;
+    font-size: 20px;
+    float: left;
+    margin: 15px 0 0 15px;
+  }
+  .kontak {
+    display: inline-block;
+    align-content: center;
+    width: 140px;
+    height: 63px;
+    opacity: 1;
+    border: 1px solid rgba(105, 96, 96, 1);
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .gbr3 {
+    float: left;
+    margin: 15px 0 0 15px;
+    width: 32px;
+    height: 32px;
+  }
+  .kontak a {
+    color: black;
+    font-size: 20px;
+    float: left;
+    margin: 15px 0 0 15px;
   }
 }
 
