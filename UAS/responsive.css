@@ -12,7 +12,17 @@
   }
 }
 
-@media all and (max-width: 1118px) {
+@media all and (max-width: 1300px) {
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    padding-top: 20px;
+  }
+  
   .header-left a {
     font-size: 30px;
     line-height: 45px;
@@ -29,7 +39,7 @@
   
   .header-right a {
     font-size: 20px;
-    line-height: 65px;
+    line-height: 40px;
     color: black;
     display: block;
     float: left;
@@ -41,10 +51,7 @@
     height: 43px;
     background: rgba(227, 26, 26, 1);
     opacity: 1;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-radius: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     overflow: hidden;
   }
@@ -70,6 +77,16 @@
   .takbiru11,.takbiru22,.takbiru33,.takbiruiv,.takbiruiv2,.takbiruiv3 {
     display: none;
   }
+}
+
+@media all and (min-width: 1930px) {
+  .bulet,.bulet2,.bulet3,.bulet4 {
+    display: none;
+  }
+  .coneatas,.conekanan,.conebawah,.conekiri {
+    display: none;
+  }
+  
 }
 
 @media all and (max-width: 1710px) {
@@ -132,6 +149,9 @@
 }
 
 @media all and (max-width: 800px) {
+  .containertop {
+    display: none;
+  }
   .header-left a {
     font-size: 30px;
     line-height: 45px;
